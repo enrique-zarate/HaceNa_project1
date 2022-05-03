@@ -53,5 +53,9 @@ def publicana():
 def profile_card2():
     return render_template('profile_card2.html')
 
+@hacena.route("/buscana")
+def buscana():
+    return render_template('buscana.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
