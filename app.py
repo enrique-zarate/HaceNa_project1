@@ -49,13 +49,13 @@ def contactana():
 def publicana():
     return render_template('publicana.html')
 
-@app.route("/profile_card2")
-def profile_card2():
-    return render_template('profile_card2.html')
-
 @app.route("/buscana")
 def buscana():
     return render_template('buscana.html')
+
+@app.route("/aplicana")
+def aplicana():
+    return render_template('aplicana.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
